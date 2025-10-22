@@ -62,12 +62,12 @@ function Login() {
           {error && <p className="text-red-500 text-xs pd-2.5">{error}</p>}
           <button
             type="submit"
-            className="btn-primary outlined bg-purple-500 rounded-sm hover:bg-purple-400" style={{height:"25px", width:"430px"}}
+            className="btn-primary text-white outlined bg-purple-500 rounded-sm hover:bg-purple-400" style={{height:"25px", width:"430px"}}
           >
             LOGIN
           </button>
           <p className="text-[13px] text-slate-800 mt-3">Don't have a account?{""}
-            <Link className="font-medium text-purple underline" to="/signUp">
+            <Link className=" font-medium text-purple underline" to="/signUp">
               SignUp</Link>
           </p>
         </form>
